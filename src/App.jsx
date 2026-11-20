@@ -1,5 +1,6 @@
 
 import ToggleDemo from './components/ToggleDemo'
+import DebounceDemo from './components/DebounceDemo'
 
 export default function App() {
   return (
@@ -16,6 +17,10 @@ export default function App() {
         <div className="mt-8">
           <ToggleDemo />
         </div>
+<div className="mt-6">
+  <DebounceDemo />
+</div>
+
       </div>
     </main>
   )
