@@ -3,7 +3,7 @@ import ToggleDemo from './components/ToggleDemo'
 import DebounceDemo from './components/DebounceDemo'
 import DocumentTitleDemo from './components/DocumentTitleDemo'
 import LocalStorageDemo from './components/LocalStorageDemo'
-
+import WindowSizeDemo from './components/WindowSizeDemo'
 
 export default function App() {
   return (
@@ -31,7 +31,9 @@ export default function App() {
 <div className="mt-6">
   <LocalStorageDemo />
 </div>
-
+<div className="mt-6">
+  <WindowSizeDemo />
+</div>
 
       </div>
     </main>
