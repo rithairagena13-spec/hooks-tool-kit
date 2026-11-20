@@ -4,6 +4,10 @@ import DebounceDemo from './components/DebounceDemo'
 import DocumentTitleDemo from './components/DocumentTitleDemo'
 import LocalStorageDemo from './components/LocalStorageDemo'
 import WindowSizeDemo from './components/WindowSizeDemo'
+import OnlineStatusDemo from './components/OnlineStatusDemo'
+
+
+
 
 export default function App() {
   return (
@@ -34,6 +38,12 @@ export default function App() {
 <div className="mt-6">
   <WindowSizeDemo />
 </div>
+
+<div className="mt-6">
+  <OnlineStatusDemo />
+</div>
+
+
 
       </div>
     </main>
