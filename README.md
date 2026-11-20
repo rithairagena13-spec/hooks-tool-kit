@@ -1,19 +1,110 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# Hooks Toolkit
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A React project demonstrating eight reusable custom Hooks through simple, interactive examples.
 
-## React Compiler
+## Project Overview
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+Hooks Toolkit is a learning project built with React and Vite. It demonstrates how custom Hooks help organize and reuse stateful logic across React components.
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+Each Hook has its own file and a dedicated demo component where its functionality can be tested.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project demonstrates eight custom Hooks:
+
+1. **useToggle** – Toggles a value between `true` and `false`.
+2. **useDebounce** – Delays updating a value until the user stops typing.
+3. **useDocumentTitle** – Updates the browser tab title dynamically.
+4. **useLocalStorage** – Saves and restores data using browser local storage.
+5. **useWindowSize** – Tracks the browser window's width and height.
+6. **useOnlineStatus** – Detects whether the browser is online or offline.
+7. **useKeyPress** – Detects when a specific keyboard key is pressed or released.
+8. **useClickOutside** – Detects clicks outside a specified element.
+
+## Technologies Used
+
+- React
+- JavaScript
+- Vite
+- Tailwind CSS
+- HTML5
+- CSS3
+
+## Project Structure
+
+```text
+src/
+├── components/
+│   ├── ToggleDemo.jsx
+│   ├── DebounceDemo.jsx
+│   ├── DocumentTitleDemo.jsx
+│   ├── LocalStorageDemo.jsx
+│   ├── WindowSizeDemo.jsx
+│   ├── OnlineStatusDemo.jsx
+│   ├── KeyPressDemo.jsx
+│   └── ClickOutsideDemo.jsx
+│
+├── hooks/
+│   ├── useToggle.js
+│   ├── useDebounce.js
+│   ├── useDocumentTitle.js
+│   ├── useLocalStorage.js
+│   ├── useWindowSize.js
+│   ├── useOnlineStatus.js
+│   ├── useKeyPress.js
+│   └── useClickOutside.js
+│
+├── App.jsx
+├── index.css
+└── main.jsx
+```
+
+## Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone YOUR_REPOSITORY_URL
+```
+
+### 2. Navigate into the project
+
+```bash
+cd hooks-toolkit
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal to view the application.
+
+## Learning Objectives
+
+Through this project, I practiced:
+
+- Creating and using reusable custom Hooks.
+- Managing component state with `useState`.
+- Handling side effects with `useEffect`.
+- Working with browser events and APIs.
+- Using cleanup functions to remove event listeners and clear timers.
+- Persisting information with local storage.
+- Managing dependencies in React Effects.
+- Separating reusable logic from UI components.
+
+## Author
+
+**Ritha IRAGENA**
+
+Built as part of my React learning journey at SheCanCode.
+
