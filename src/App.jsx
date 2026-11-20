@@ -5,7 +5,7 @@ import DocumentTitleDemo from './components/DocumentTitleDemo'
 import LocalStorageDemo from './components/LocalStorageDemo'
 import WindowSizeDemo from './components/WindowSizeDemo'
 import OnlineStatusDemo from './components/OnlineStatusDemo'
-
+import KeyPressDemo from './components/KeyPressDemo'
 
 
 
@@ -43,7 +43,9 @@ export default function App() {
   <OnlineStatusDemo />
 </div>
 
-
+<div className="mt-6">
+  <KeyPressDemo />
+</div>
 
       </div>
     </main>
