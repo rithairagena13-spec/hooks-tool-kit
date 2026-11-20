@@ -2,6 +2,9 @@
 import ToggleDemo from './components/ToggleDemo'
 import DebounceDemo from './components/DebounceDemo'
 import DocumentTitleDemo from './components/DocumentTitleDemo'
+import LocalStorageDemo from './components/LocalStorageDemo'
+
+
 export default function App() {
   return (
     <main className="min-h-screen bg-slate-50 px-6 py-12">
@@ -24,6 +27,11 @@ export default function App() {
 <div className="mt-6">
   <DocumentTitleDemo />
 </div>
+
+<div className="mt-6">
+  <LocalStorageDemo />
+</div>
+
 
       </div>
     </main>
